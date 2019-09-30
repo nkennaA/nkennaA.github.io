@@ -2,12 +2,14 @@
     float: left;
     width: 33.3333%;
     padding: 0px;
+    z-index: 2;
   }
   
   .row::after {
     content: "";
     clear: both;
     display: table;
+    z-index: -2;
   }
 
   .image{
@@ -32,4 +34,8 @@
       text-align: center;
       outline-style: outset;
       outline-color: #fa4053;
+  }
+
+  .memeTable {
+    offset: path("M 100");
   }
