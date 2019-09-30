@@ -20,4 +20,16 @@
       border-color: darkred;
       margin-bottom: 50px;
       margin-top: 50px;
+      background-color: rgb(255, 255, 200);
+  }
+
+  .minorHeader {
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .subHeader {
+      text-align: center;
+      outline-style: outset;
+      outline-color: #fa4053;
   }
